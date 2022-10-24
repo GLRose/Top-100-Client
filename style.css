@@ -1,0 +1,18 @@
+* {
+  font-family: courier;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: rgb(23, 24, 16);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-children a {
+  text-decoration: none;
+  color: #3e863d;
+}
