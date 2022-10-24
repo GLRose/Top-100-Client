@@ -12,7 +12,11 @@
   height: 100vh;
 }
 
-.container-children a {
+.main-child a {
   text-decoration: none;
+  color: #3e863d;
+}
+
+.src-code a {
   color: #3e863d;
 }
