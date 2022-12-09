@@ -9,7 +9,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1em;
   height: 100vh;
+  gap: .5em;
 }
 
 .main-child a {
@@ -19,4 +21,9 @@
 
 .src-code a {
   color: #3e863d;
+}
+
+.get-items-button a{
+  color: #3e863d;
+  cursor: pointer;
 }
