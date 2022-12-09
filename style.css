@@ -1,7 +1,5 @@
 * {
   font-family: courier;
-  font-size: 1.5rem;
-  font-weight: 600;
   background-color: rgb(23, 24, 16);
 }
 
@@ -12,6 +10,7 @@
   padding: 1em;
   height: 100vh;
   gap: .5em;
+  font-size: 2rem;
 }
 
 .main-child a {
@@ -26,4 +25,10 @@
 .get-items-button a{
   color: #3e863d;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .container{
+    font-size: 1rem;
+  }
 }
